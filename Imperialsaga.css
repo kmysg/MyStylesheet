@@ -1,0 +1,80 @@
+#altContent {
+    width: 1024px;
+}
+
+#bridge-global-toolbar {
+    display: none;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+#fLeft {
+    display: none;
+    float: left;
+    width: 200px;
+}
+
+#fRight {
+    display: none;
+}
+
+#footer div, #footer dl, #footer dt, #footer dd, #footer ul, #footer li, #footer p {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#wLeft {
+    height: 576px;
+    width: 1024px;
+}
+
+@charset "UTF-8";
+
+body {
+    background: #000000;
+    color: #ffffff;
+    margin: 0;
+    overflow: hidden
+;
+    padding: 0;
+}
+
+/*--------------------------------------------
+ Footer
+--------------------------------------------*/
+
+div#footer {
+    display: none;
+}
+
+div#footer a:hover {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+div#footer a:link, div#footer a:visited, div#footer a:active {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+div#footer li {
+    list-style: none;
+}
+
+div#footer p.footer-copyright {
+    display: none;
+}
+
+div#footer ul li.list-no-mark {
+    background: none;
+}
+
+img {
+    border: 0;
+}
+
